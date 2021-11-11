@@ -1,4 +1,7 @@
 # shoppingmall
+```
+Vue를 이용해서 만든 원룸 대여 사이트입니다.
+```
 
 ## Project setup
 ```
