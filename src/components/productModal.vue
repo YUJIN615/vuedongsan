@@ -53,11 +53,16 @@ export default {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 10px;
-  width: 600px;
+  max-width: 600px;
   height: auto;
   background: #fff;
   padding: 30px;
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .modal .bg-white {
+    width: calc(100% - 60px);
+  }
 }
 .modal .bg-white img {
   width: 100%;
