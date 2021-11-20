@@ -122,21 +122,21 @@ nav {
   max-width: 700px;
   background: rgb(85, 105, 216);
   border-radius: 8px;
-  margin: 0 auto 30px;;
+  margin: 0 auto 30px;
   padding: 0 30px;
 }
 nav ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 nav ul li a {
   display: block;
-  padding: 30px;
+  padding: 30px 0;
   color: #fff;
 }
 
 .discountBanner{
-  width: 700px;
+  max-width: 700px;
   padding: 40px;
   border-radius: 8px;
   margin: 0 auto 30px;
@@ -145,13 +145,13 @@ nav ul li a {
 }
 
 .buttonGroup {
-  width: 700px;
+  max-width: 700px;
   margin: 0 auto 20px;
 }
 
 .buttonGroup button {
   padding: 2px 7px;
-  margin-right: 15px;
+  margin: 0 15px 10px 0;
 }
 
 .fade-enter-from {
